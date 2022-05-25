@@ -1,0 +1,37 @@
+{
+    "name": "schachbulle/contao-eventmanager-bundle",
+    "type": "contao-bundle",
+    "description": "Eventmanager für Contao 4",
+    "license": "LGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Frank Hoppe",
+            "homepage": "https://www.schachbulle.de/"
+        }
+    ],
+    "require": {
+        "php": "^5.6 || ^7.0",
+        "contao/core-bundle": "^4",
+        "schachbulle/contao-helper-bundle": "*"
+    },
+    "conflict": {
+        "contao/core": "*",
+        "contao/manager-plugin": "<2.0 || >=3.0"
+    },
+    "require-dev": {
+        "contao/manager-plugin": "^2.0",
+        "doctrine/doctrine-cache-bundle": "^1.3"
+    },
+    "extra": {
+        "contao-manager-plugin": "Schachbulle\\ContaoEventmanagerBundle\\ContaoManager\\Plugin"
+    },
+    "autoload": {
+        "psr-4": {
+            "Schachbulle\\ContaoEventmanagerBundle\\": "src/"
+        }
+    },
+    "support": {
+        "issues": "https://github.com/Samson1964/contao-eventmanager-bundle/issues",
+        "source": "https://github.com/Samson1964/contao-eventmanager-bundle"
+    }
+}
