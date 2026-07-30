@@ -9,6 +9,7 @@
 * Add: Abhängigkeit codefog/contao-haste
 * Add: PHP-8-Unterstützung
 * Add: Haste-Toggler
+* Change: Beschreibung, Keywords und Homepage in der composer.json ergänzt, damit Packagist das Paket verständlich darstellt und über die Suche auffindbar macht
 
 ## Version 0.0.1 (2022-05-25)
 

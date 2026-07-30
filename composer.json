@@ -1,7 +1,14 @@
 {
     "name": "schachbulle/contao-eventmanager-bundle",
     "type": "contao-bundle",
-    "description": "Eventmanager für Contao 4",
+    "description": "Verwaltet Veranstaltungen mit Anmeldung und Teilnehmerlisten.",
+    "keywords": [
+        "contao",
+        "veranstaltung",
+        "anmeldung",
+        "event"
+    ],
+    "homepage": "https://github.com/Samson1964/contao-eventmanager-bundle",
     "license": "LGPL-3.0-or-later",
     "authors": [
         {
